@@ -8,6 +8,9 @@ TagManager:
   - Red
   - Green
   - Crate
+  - 50
+  - 100
+  - 500
   layers:
   - Default
   - TransparentFX

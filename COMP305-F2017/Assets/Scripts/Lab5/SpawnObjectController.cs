@@ -28,8 +28,8 @@ public class SpawnObjectController : MonoBehaviour {
         _intervalSpawn -= Time.deltaTime;
         if (_intervalSpawn <= 0)
         { 
-        Instantiate(objects[0], spawnPosition, Quaternion.identity);
-            _intervalSpawn = 1f;
+         Instantiate(objects[0], spawnPosition, Quaternion.identity);
+            _intervalSpawn = 1.5f;
         }
 
 
@@ -41,7 +41,7 @@ public class SpawnObjectController : MonoBehaviour {
         if (_intervalSpawn <= 0)
         {
             Instantiate(objects[1], spawnPosition, Quaternion.identity);
-            _intervalSpawn = 1f;
+            _intervalSpawn = 3f;
         }
 
     }
@@ -52,7 +52,7 @@ public class SpawnObjectController : MonoBehaviour {
         if (_intervalSpawn <= 0)
         {
             Instantiate(objects[2], spawnPosition, Quaternion.identity);
-            _intervalSpawn = 1f;
+            _intervalSpawn = 6f;
         }
     }
 }
