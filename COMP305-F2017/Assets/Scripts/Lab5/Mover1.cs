@@ -25,4 +25,9 @@ public class Mover1 : MonoBehaviour {
         rb.velocity = new Vector3(hMove * speed, 0, 0);     
           
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Collectitems.GlobalInstance.CollectedItem(collision.gameObject);
+        Destroy(collision.gameObject);
+    }
 }

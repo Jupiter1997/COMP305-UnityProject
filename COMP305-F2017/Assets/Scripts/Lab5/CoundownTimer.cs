@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CoundownTimer : MonoBehaviour {
 
@@ -18,8 +19,7 @@ public class CoundownTimer : MonoBehaviour {
         timeText.text = "Time:" + timeCount.ToString("F2");
         if (timeCount < 0)
         {
-            //Application.LoadLevel();
-            Debug.Log("Next Game");
+            SceneManager.LoadScene(1);
         }
 
 
