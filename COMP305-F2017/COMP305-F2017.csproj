@@ -236,6 +236,9 @@
     <Compile Include="Assets\Scripts\Lab7\DestroyColl.cs" />
     <Compile Include="Assets\Scripts\Lab7\Mover2.cs" />
     <Compile Include="Assets\Scripts\Lab7\WinColl.cs" />
+    <Compile Include="Assets\Scripts\Lab8\CollectByClick.cs" />
+    <Compile Include="Assets\Scripts\Lab8\Jarvan.cs" />
+    <Compile Include="Assets\Scripts\Lab8\ObstacleSpawn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
